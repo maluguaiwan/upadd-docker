@@ -1,7 +1,7 @@
 # upadd-docker
 Docker deploying Nginx MySQL PHP7.1 swoole in one key, support full feature functions.
 
-![Demo Image](./resources/dnmp.png)
+![Demo Image](./resources/img/dnmp.png)
 
 ### Feature
 1. Support Multiple domains.
@@ -27,7 +27,7 @@ Docker deploying Nginx MySQL PHP7.1 swoole in one key, support full feature func
     You may need use `sudo` before this command in Linux.
 5. Go to your browser and type `localhost`, you will see:
 
-![Demo Image](./resources/snapshot.png)
+![Demo Image](./resources/img/snapshot.png)
 
 The index file is located in `./www/site1/`.
 
@@ -42,7 +42,7 @@ To preview them, add 2 lines to your hosts file (at `/etc/hosts` on Linux and `C
 127.0.0.1 www.site2.com
 ```
 
-The first edition is DNMP, and we modified it based on this
+The first edition is addcn in DNMP, and we modified it based on this
 * https://github.com/yeszao/dnmp.git
-
+* https://github.com/addcn/docker-lnmp.git
 Then you can visit from browser.
