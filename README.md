@@ -40,7 +40,8 @@ To preview them, add 2 lines to your hosts file (at `/etc/hosts` on Linux and `C
 127.0.0.1 www.site1.com
 127.0.0.1 www.site2.com
 ```
-Then you can visit from browser.
 
-According to DNMP secondary modification 
+The first edition is DNMP, and we modified it based on this
 * https://github.com/yeszao/dnmp.git
+
+Then you can visit from browser.
