@@ -1,7 +1,7 @@
-# upadd
+# upadd-docker
 Docker deploying Nginx MySQL PHP7.1 swoole in one key, support full feature functions.
 
-![Demo Image](./dnmp.png)
+![Demo Image](./resources/dnmp.png)
 
 ### Feature
 1. Support Multiple domains.
@@ -12,6 +12,7 @@ Docker deploying Nginx MySQL PHP7.1 swoole in one key, support full feature func
 6. All conf files located in host.
 7. All log files located in host.
 8. Built-in PHP extensions install commands.
+9. Support PHP7.1.11 in Swoole1.9.22.
 
 ### Usage
 1. Install `git`, `docker` and `docker-compose`;
@@ -26,7 +27,7 @@ Docker deploying Nginx MySQL PHP7.1 swoole in one key, support full feature func
     You may need use `sudo` before this command in Linux.
 5. Go to your browser and type `localhost`, you will see:
 
-![Demo Image](./snapshot.png)
+![Demo Image](./resources/snapshot.png)
 
 The index file is located in `./www/site1/`.
 
